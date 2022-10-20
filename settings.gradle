@@ -15,3 +15,8 @@ dependencyResolutionManagement {
 rootProject.name = "My App"
 include ':app'
 include ':myapp2'
+include ':app_intent'
+include ':app_permission'
+include ':app_permission2'
+include ':myapp3'
+include ':myapp4'

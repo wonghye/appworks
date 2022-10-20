@@ -13,8 +13,8 @@
         android:layout_height="wrap_content"
         android:textSize="30sp"
         android:gravity="center"
-        android:layout_marginTop="100dp"
-        android:text="전등 켜짐"></TextView>
+        android:layout_marginTop="200dp"
+        android:text="전등 켜짐" />
 
     <ToggleButton
         android:id="@+id/btn_on_off"
@@ -22,10 +22,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
         android:layout_gravity="center"
-        android:textSize="25sp"
         android:textOn="On"
         android:textOff="Off"
-        android:textAllCaps="false">
-    </ToggleButton>
+        android:textAllCaps="false"
+        android:textSize="25sp" />
 
 </LinearLayout>

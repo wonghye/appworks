@@ -19,6 +19,7 @@ implements View.OnClickListener{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_visible);
 
+        //객체 생성
         btn_vis_true = findViewById(R.id.btn_vis_true);
         btn_vis_false = findViewById(R.id.btn_vis_false);
         textView = findViewById(R.id.textView);
@@ -34,7 +35,7 @@ implements View.OnClickListener{
         if(view == btn_vis_true){
             textView.setVisibility(View.VISIBLE);
         }else if(view == btn_vis_false){
-            textView.setVisibility(view.INVISIBLE);
+            textView.setVisibility(View.INVISIBLE);
         }
     }
 }

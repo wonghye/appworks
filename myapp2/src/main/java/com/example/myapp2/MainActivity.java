@@ -8,9 +8,8 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-
-    Button btn_vis_True;
-    Button btn_vis_False;
+    Button btn_vis_true;
+    Button btn_vis_false;
     TextView textView;
 
     @Override
@@ -18,12 +17,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btn_vis_True = findViewById(R.id.btn_vis_True);
-        btn_vis_False = findViewById(R.id.btn_vis_False);
+        //객체 생성
+        btn_vis_true = findViewById(R.id.btn_vis_true);
+        btn_vis_false = findViewById(R.id.btn_vis_false);
         textView = findViewById(R.id.textView);
 
         //보이기 버튼 클릭
-        btn_vis_True.setOnClickListener(new View.OnClickListener() {
+        btn_vis_true.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 textView.setVisibility(View.VISIBLE);
@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //숨기기 버튼 클릭
-        btn_vis_False.setOnClickListener(new View.OnClickListener() {
+        btn_vis_false.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 textView.setVisibility(View.INVISIBLE);
